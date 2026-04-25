@@ -22,9 +22,31 @@ It showcases data ingestion, transformation, and storage using modern cloud-base
 - Modular design for scalability and maintainability.
 - Cloud-based architecture ensuring high availability.
 
-
-
 # Learning Outcomes
 - Practical experience in building data engineering solutions on cloud.
 - Understanding of pipeline orchestration and big data processing.
 - Hands-on skills in Azure services and distributed data processing with PySpark.
+
+
+# AI Enhancement (Prototype)
+
+To extend the capabilities of this data pipeline, a basic AI-driven querying system has been explored.
+
+## Key Idea:
+- Enable users to interact with processed (Gold layer) data using natural language queries.
+- Use LLM (Large Language Model) concepts to generate insights from structured datasets.
+
+## Approach:
+1. Retrieve processed data from the Gold layer
+2. Convert user query into structured prompt
+3. Generate insights using LLM (simulated / prototype level)
+
+## Sample Use Case:
+User Query: "What are the top-selling products?"
+→ AI-generated response based on processed data
+
+## Future Scope:
+- Implement Retrieval-Augmented Generation (RAG)
+- Integrate with chatbot interface
+- Deploy using FastAPI for real-time API access
+  
